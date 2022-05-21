@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+    <title>Accord UserList</title>
+</head>
+<body>
+    <div class="container">
+        <div class="user_block"></div>
+    </div>
+
+    <script id="addUserItem" type="text/template">
+        <div class="user-item">
+                <div class="user_item-header">
+                    <span>{{name}}</span>
+                </div>
+                <div class="user_item-body">
+                    <div class="user_avatar">
+                        <span>Avatar</span>
+                    </div>
+                    <div class="user_item-info">
+                        <span class="user_inn"><b>INN: </b> {{inn}}</span>
+                        <span class="user_name"><b>Name: </b> {{name}}</span>
+                        <span class="user_age"><b>Age: </b> {{age}}</span>
+                        <span class="user_email"><b>Email: </b>{{email}}</span>
+                        <span class="user_city"><b>City: </b>{{city}}</span>
+                        <span class="user_gender"><b>Gender: </b>{{gender}}</span>
+                    </div>
+                </div>
+            </div>
+    </script>
+</body>
+</html>
